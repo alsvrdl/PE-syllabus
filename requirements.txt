@@ -1,0 +1,9 @@
+jupyterlab
+# mystmd
+jupyterlab_myst
+ipykernel
+ipywidgets
+numpy
+matplotlib
+# scipy
+jupyter-book>=2.0.0a0

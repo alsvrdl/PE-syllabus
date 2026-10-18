@@ -3,7 +3,6 @@ title: Jupyter Book 2 Workshop Template
 site:
   hide_outline: true
   hide_toc: true
-  hide_title_block: true
 ---
 
 <div style="text-align: center">
@@ -17,8 +16,8 @@ site:
 :align: center
 ```
 
-_A GitHub Template repository designed for use in Jupyter Book 2 and MyST workshops._
+_Interacitve Syllabus Physics Experiments_
 
 <div style="text-align: center", font-size: 1.2em>
-Freek Pols, Luuk Fröling, Robert Lanzafame, Kirstie Whitaker, Jim Madge
+Jelmer Wagenaar, Bas Hensen, Tjerk Oosterkamp, Paul Logman, Sam Laboom, Alexey Sverdlov
 </div>

@@ -38,7 +38,7 @@ project:
   # Jupyter Notebook configuration
   jupyter:
     binder:
-      repo: https://github.com/executablebooks/thebe-binder-base
+      repo: https://github.com/alsvrdl/PE-syllabus
 
   toc:
     - file: index.md                      # the landing page

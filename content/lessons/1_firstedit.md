@@ -4,7 +4,7 @@ numbering:
     offset: 0
 ---
 (fundamentals)=
-# Jupyter Book Fundamentals
+# First Edit test
 
 ## Anatomy of a Jupyter Book
 

@@ -56,6 +56,7 @@ project:
         # - file: content/lessons/4_styling.md
         - file: content/lessons/5_workflows.md
         - file: content/lessons/6_pdfoutput.md
+    - file: content/newfile.md
     - file: content/advanced_start.md
     - file: content/software.md
     - file: content/gallery.md

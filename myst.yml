@@ -61,7 +61,7 @@ project:
     - file: content/advanced_start.md
     - file: content/software.md
     - file: content/gallery.md
-    - file: content/executable_test.md
+    - file: content/executable_test.ipynb
   abbreviations:
     JB2: Jupyter Book 2
     CI/CD: Continuous Integration/Continuous Deployment

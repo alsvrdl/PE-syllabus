@@ -35,4 +35,4 @@ Make the following line an equation with a label,
 
 $$F = m a$$ (eq_newton)
 
-And reference that equation here [](eq_newton.
+And reference that equation here [](#eq_newton).

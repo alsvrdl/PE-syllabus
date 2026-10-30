@@ -42,7 +42,7 @@ project:
 
   toc:
     - file: index.md    
-    - file: theory_syllabus.md
+    - file: content/reader/theory_syllabus.md
       children:
         - file: content/reader/Introduction
     - file: content/executable_test.ipynb

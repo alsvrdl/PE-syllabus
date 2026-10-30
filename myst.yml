@@ -44,7 +44,7 @@ project:
     - file: index.md    
     - file: theory_syllabus.md
       children:
-      - file: content/reader/Introduction
+        - file: content/reader/Introduction
     - file: content/executable_test.ipynb
   abbreviations:
     JB2: Jupyter Book 2

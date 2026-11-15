@@ -112,14 +112,13 @@ Building your intuïtion in the frequency domain and thinking about
 signals as being composed of different frequency components is extremely
 useful in the field of signal processing. Consider the additive property
 of a linear system: The response of the system to input *x*(*t*) results
-in an output *y*(*t*). Then from
-@linear_equations it follows that
+in an output *y*(*t*). Then from Eqn @linear_equations it follows that
 
-$$\begin{eqnarray}
+$$\begin{eqnarray*}
     x_1(t) & \rightarrow & y_1(t) \\\\
     x_2(t) & \rightarrow & y_2(t) \\\\
     c_1 ~ x_1(t) + c_2 ~ x_2(t)  & \rightarrow & c_1 ~ y_1(t) + c_2 ~ y_2(t)
-\end{eqnarray}$$
+\end{eqnarray*}$$
 
 In electronics, circuits of capacitors, inductors and resistors can be
 designed to filter the input and/or output of a measurement device and
@@ -129,20 +128,20 @@ differential equation to describe the output voltage
 *V*<sub>*i**n*</sub>(*t*). An alternative description is to consider the
 signal as a sum of sinusoidal functions, i.e. to use
 
-$$\begin{eqnarray}
+$$\begin{eqnarray*}
     x_1(t) & = & a_1 \sin(\omega_1 t) \\\\
     x_2(t) & = & a_2 \sin(\omega_2 t) \\\\
-\end{eqnarray}$$
+\end{eqnarray*}$$
 
 where *a*<sub>1</sub> and *a*<sub>2</sub> indicate the amplitude of the
 two sinusoidal functions with frequencies *ω*<sub>1</sub> and
 *ω*<sub>2</sub>. If the system is linear the response
 *y*<sub>1</sub>(*t*) and *y*<sub>2</sub>(*t*) is given by
 
-$$\begin{eqnarray}
+$$\begin{eqnarray*}
     y_1(t) & = & \kappa_1 \cdot a_1 \sin(\omega_1 t + \phi_1) \\\\
     y_2(t) & = & \kappa_2 \cdot a_2 \sin(\omega_2 t + \phi_2) \\\\
-\end{eqnarray}$$
+\end{eqnarray*}$$
 
 where *κ*<sub>1</sub> and *κ*<sub>2</sub> are multiplicative factors
 that depends on the frequency *ω* and the phase *ϕ*<sub>1</sub> and

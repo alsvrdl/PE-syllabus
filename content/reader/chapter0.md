@@ -124,8 +124,8 @@ In electronics, circuits of capacitors, inductors and resistors can be
 designed to filter the input and/or output of a measurement device and
 reduce noise. To design such filters either requires solving a
 differential equation to describe the output voltage
-*V*<sub>*o**u**t*</sub>(*t*) as a function of the input voltage
-*V*<sub>*i**n*</sub>(*t*). An alternative description is to consider the
+$V_{out}(t)$ as a function of the input voltage
+$V_{in}(t)$. An alternative description is to consider the
 signal as a sum of sinusoidal functions, i.e. to use
 
 $$\begin{eqnarray*}

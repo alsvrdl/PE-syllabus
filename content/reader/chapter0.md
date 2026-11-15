@@ -117,12 +117,9 @@ in an output *y*(*t*). Then from Eqn @linear_equations it follows that
 $$\begin{align*}
     x_1(t) & \rightarrow y_1(t) & \\\\
     x_2(t) & \rightarrow y_2(t) & \\\\
-    c_1 ~ x_1(t) + c_2 ~ x_2(t)  & \rightarrow & c_1 ~ y_1(t) + c_2 ~ y_2(t)
+    c_1 ~ x_1(t) + c_2 ~ x_2(t) & \rightarrow c_1 ~ y_1(t) + c_2 ~ y_2(t) & 
 \end{align*}$$
 
-$$
-\[ \begin{array}{rcl} x_1(t) &\to& y_1(t)\\ x_2(t) &\to& y_2(t)\\ c_1x_1(t)+c_2x_2(t) &\to& c_1y_1(t)+c_2y_2(t) \end{array} \]
-$$
 
 
 In electronics, circuits of capacitors, inductors and resistors can be

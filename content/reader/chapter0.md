@@ -28,6 +28,7 @@ frequency peak with a smaller amplitude.
 ``` {figure} content/figures/figure1.png
 :name: fig_myfirstfigure
 :width: 50%
+
 add file in the folder
 ```
 

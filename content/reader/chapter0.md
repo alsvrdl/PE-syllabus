@@ -120,6 +120,11 @@ $$\begin{align*}
     c_1 ~ x_1(t) + c_2 ~ x_2(t)  & \rightarrow & c_1 ~ y_1(t) + c_2 ~ y_2(t)
 \end{align*}$$
 
+$$
+\[ \begin{array}{rcl} x_1(t) &\to& y_1(t)\\ x_2(t) &\to& y_2(t)\\ c_1x_1(t)+c_2x_2(t) &\to& c_1y_1(t)+c_2y_2(t) \end{array} \]
+$$
+
+
 In electronics, circuits of capacitors, inductors and resistors can be
 designed to filter the input and/or output of a measurement device and
 reduce noise. To design such filters either requires solving a

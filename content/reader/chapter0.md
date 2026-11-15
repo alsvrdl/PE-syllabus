@@ -32,6 +32,13 @@ frequency peak with a smaller amplitude.
 add file in the folder
 ```
 
+![](../figures/figure1.png)
+
+```{figure} ../figures/figure1.png
+:width: 50%
+
+Test caption
+```
 
 ## Linear systems 
 

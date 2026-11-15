@@ -102,3 +102,59 @@ functions. This is a very powerful and useful method if the input-output
 relation for harmonic functions is easier to obtain and if we have a
 general method that can decompose an arbitrary function as a sum of
 harmonic functions.
+
+## Signal processing
+
+Building your intuïtion in the frequency domain and thinking about
+signals as being composed of different frequency components is extremely
+useful in the field of signal processing. Consider the additive property
+of a linear system: The response of the system to input *x*(*t*) results
+in an output *y*(*t*). Then from
+Eqn <a href="#Eq:LinearSystem" data-reference-type="ref"
+data-reference="Eq:LinearSystem">[Eq:LinearSystem]</a> it follows that
+
+$$\begin{eqnarray\*}
+    x_1(t) & \rightarrow & y_1(t) \\\\
+    x_2(t) & \rightarrow & y_2(t) \\\\
+    c_1 ~ x_1(t) + c_2 ~ x_2(t)  & \rightarrow & c_1 ~ y_1(t) + c_2 ~ y_2(t)
+\end{eqnarray\*}$$
+
+In electronics, circuits of capacitors, inductors and resistors can be
+designed to filter the input and/or output of a measurement device and
+reduce noise. To design such filters either requires solving a
+differential equation to describe the output voltage
+*V*<sub>*o**u**t*</sub>(*t*) as a function of the input voltage
+*V*<sub>*i**n*</sub>(*t*). An alternative description is to consider the
+signal as a sum of sinusoidal functions, i.e. to use
+
+$$\begin{eqnarray\*}
+    x_1(t) & = & a_1 \sin(\omega_1 t) \\\\
+    x_2(t) & = & a_2 \sin(\omega_2 t) \\\\
+\end{eqnarray\*}$$
+
+where *a*<sub>1</sub> and *a*<sub>2</sub> indicate the amplitude of the
+two sinusoidal functions with frequencies *ω*<sub>1</sub> and
+*ω*<sub>2</sub>. If the system is linear the response
+*y*<sub>1</sub>(*t*) and *y*<sub>2</sub>(*t*) is given by
+
+$$\begin{eqnarray\*}
+    y_1(t) & = & \kappa_1 \cdot a_1 \sin(\omega_1 t + \phi_1) \\\\
+    y_2(t) & = & \kappa_2 \cdot a_2 \sin(\omega_2 t + \phi_2) \\\\
+\end{eqnarray\*}$$
+
+where *κ*<sub>1</sub> and *κ*<sub>2</sub> are multiplicative factors
+that depends on the frequency *ω* and the phase *ϕ*<sub>1</sub> and
+*ϕ*<sub>2</sub> take into account the possible phase-shift in the
+system. Instead of using the explicit time dependence we could describe
+the system by only using the frequencies *ω*<sub>1</sub> and
+*ω*<sub>2</sub>. We will see later that a more general relation holds
+and that we can describe any signal as an infinite sum of sinusoidal
+functions. This is an important step because it allows to design
+electronic circuits in the frequency domain based on the output voltage
+*V*(*ω*) [^1]. The response of the system can be decomposed in the
+frequency response of the individual components in the circuit. Because
+the system is linear simple rules exist to add the response of the
+different components.
+
+[^1]: This response is a complex quantity and contains a frequency
+    dependent amplitude and phase response

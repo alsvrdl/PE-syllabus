@@ -25,9 +25,9 @@ component on top of the signal. The same signal in the frequency domain
 reveals a large amplitude, low frequency peak and a second higher
 frequency peak with a smaller amplitude.
 
-``` {figure} figures/figure1.png
-:width: 50%
+``` {figure} content/figures/figure1.png
 :name: fig_myfirstfigure
+:width: 50%
 add file in the folder
 ```
 

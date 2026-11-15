@@ -25,18 +25,12 @@ component on top of the signal. The same signal in the frequency domain
 reveals a large amplitude, low frequency peak and a second higher
 frequency peak with a smaller amplitude.
 
-<figure id="figure1">
-<div class="center">
-<img src="figures/figure1.png" />
-</div>
-<figcaption> An example of the use of Fourier analysis with intensity
-plotted in the time domain (left) and frequency domain (right). The
-frequency domain plot clearly reveals that the signal contains a slow
-and fast oscillation. (Image from <a
-href="https://lstsal.wordpress.com/2015/02/28/comparing-two-audio-files/"
-class="uri">https://lstsal.wordpress.com/2015/02/28/comparing-two-audio-files/</a>)
-</figcaption>
-</figure>
+``` {figure} figures/figure1.PNG
+:width: 50%
+:name: fig_myfirstfigure
+add file in the folder
+```
+
 
 ## Linear systems 
 

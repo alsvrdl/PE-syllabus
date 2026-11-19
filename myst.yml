@@ -42,7 +42,6 @@ project:
 
   toc:
     - file: index.md    
-    - file: content/reader/theory_syllabus.md
     - file: content/reader/Introduction
     - file: content/reader/chapter0
     - file: content/reader/chapter2

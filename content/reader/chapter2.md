@@ -22,27 +22,21 @@ We have already encountered the convolution operator in Section {ref}`sec:impuls
   $$ (eq:convolution)
   
   The convolution operation is commutative,
-  
-  $$
+  $
   u \otimes v = v \otimes u,
-  $$
-  
+  $
   distributive,
-  
-  $$
+  $
   u \otimes (v_1 + v_2)
   =
   u \otimes v_1 + u \otimes v_2,
-  $$
-  
+  $
   and associative,
-  
-  $$
+  $
   u \otimes (v \otimes w)
   =
   (u \otimes v)\otimes w.
-  $$
-
+  $
 - **Convolution theorem:** The Fourier Transform $Y(\omega)$ of the product of two signals $x_1(t)$ and $x_2(t)$ is equal to the convolution of their individual Fourier Transforms:
   
   ```{math}

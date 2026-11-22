@@ -64,7 +64,9 @@ x_1(t)x_2(t)e^{-i\omega t}
 ```
 
 And we do indeed see that this is the Fourier Transform of
-$y(t)=x_1(t)x_2(t)$.^[In the second-to-last line of the derivation we have used
-$\frac{1}{2\pi}\int_{-\infty}^{\infty} e^{ix(a-b)}\,\mathrm{d}x
-=\delta(a-b)$.]
+$y(t)=x_1(t)x_2(t)$.[^reference]
 The proof of the reverse case is obtained in a similar fashion.
+
+[^reference]: In the second-to-last line of the derivation we have used
+$\frac{1}{2\pi}\int_{-\infty}^{\infty} e^{ix(a-b)}\,\mathrm{d}x
+=\delta(a-b)$.

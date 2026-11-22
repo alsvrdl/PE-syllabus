@@ -11,13 +11,12 @@ We have already encountered the convolution operator in Section {ref}`sec:impuls
 
 - **Convolution:** Let $u(x)$ and $v(x)$ be two functions. The convolution of $u(x)$ and $v(x)$, $y(x)$, is defined as:
 
-```{math}
-:label: eq-Convolutie
 
+$$
 y(x)=\int_{-\infty}^\infty u(s) v(x-s)\,\mathrm{d}s
 \buildrel \mathrm{def}\over=
 u(x)\otimes v(x).
-```
+$$
 
 The convolution operation is commutative,
 

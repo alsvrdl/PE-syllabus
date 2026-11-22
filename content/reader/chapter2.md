@@ -14,8 +14,9 @@ We have already encountered the convolution operator in Section {ref}`sec:impuls
 
 $$
 y(x)=\int_{-\infty}^\infty u(s) v(x-s) \mathrm{d}s \overset{\text{def}}{=} u(x) \otimes v(x) 
-$$
+$$ (eq:convolution)
 
+see equation {eq}`eq:convolution`
 The convolution operation is commutative,
 
 $$

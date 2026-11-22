@@ -2,6 +2,7 @@
 title: Chapter 2 - Signal processing
 numbering:
   headings: true
+  enumerator: 2.%s
 ---
 
 

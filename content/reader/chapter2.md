@@ -28,7 +28,7 @@ We have already encountered the convolution operator in Section {ref}`sec:impuls
   
   ```{math}
   :label: eq-convolutie
-  
+  :enumerator: 2.1
   \begin{aligned}
   y(t)&=x_1(t)x_2(t),\\
   Y(\omega)&=\frac{1}{2\pi}X_1(\omega)\otimes X_2(\omega).

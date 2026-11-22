@@ -1,11 +1,11 @@
 
-# Signal processing
+# Chapter 2 - Signal processing
 
 In physical experiments, we measure signals for a certain amount of time after which the signal is cut off, this is called windowing. Moreover, the measuring of physical phenomena takes place at discrete time intervals through sampling. This is necessary when the measurements have to be digitized before they can be processed by a computer.
 
 However, sampling and windowing will cause artifacts in the information contained within the signal. For instance, sampling causes high-frequency changes between two sample points to not be recorded. Before we explore artifacts further in Section {ref}`sectie:artefacten` we introduce a powerful mathematical tool that will simplify the interpretation of the processes that cause these artifacts, namely convolution.
 
-## Convolution
+## 2.1 Convolution
 
 We have already encountered the convolution operator in Section {ref}`sec:impulsestep`, where we also already saw hints of an important connection between this convolution operator and the Fourier Transform. Here we will formalize that relation.
 
@@ -13,9 +13,7 @@ We have already encountered the convolution operator in Section {ref}`sec:impuls
 
 
 $$
-y(x)=\int_{-\infty}^\infty u(s) v(x-s)\,\mathrm{d}s
-\buildrel \mathrm{def}\over=
-u(x)\otimes v(x).
+y(x)=\int_{-\infty}^\infty u(s) v(x-s) \,\mathrm{d}s \buildrel \text{def}\over= u(x) \otimes v(x) 
 $$
 
 The convolution operation is commutative,

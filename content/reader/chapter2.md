@@ -1,3 +1,8 @@
+---
+numbering:
+  headings: true
+---
+
 
 # Chapter 2 - Signal processing
 
